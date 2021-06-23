@@ -3,9 +3,9 @@ plugins {
 }
 repositories {
     mavenCentral()
-    maven {
-        url 'https://kotlin.bintray.com/kotlinx/'
-    }
+    // maven {
+    //     url 'https://kotlin.bintray.com/kotlinx/'
+    // }
 }
 group 'com.example'
 version '0.0.2'
@@ -39,7 +39,7 @@ kotlin {
 //        }
         jvmMain {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-html:0.7.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-html:0.7.3")
             }
         }
 //        jvmTest {
